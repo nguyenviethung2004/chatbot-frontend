@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
+import { useState } from "react"
 import LoginModal from "./login-modal"
 import SignupModal from "./signup-modal"
 
@@ -57,9 +57,9 @@ export default function LandingPage({ onLogin }: LandingPageProps) {
       <header className="flex items-center justify-between px-6 py-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
           <div className="bg-gradient-to-br from-emerald-400 to-cyan-400 rounded-xl flex items-center justify-center px-3 py-2">
-            <span className="text-slate-900 font-extrabold text-xl tracking-wide">Hung ne </span>
+            <span className="text-slate-900 font-extrabold text-xl tracking-wide">Bot123</span>
           </div>
-          <span className="text-white font-bold text-2xl">ChatVipPro</span>
+          <span className="text-white font-bold text-2xl">ChatBot</span>
         </div>
 
         <div className="flex items-center gap-4">
@@ -122,19 +122,19 @@ export default function LandingPage({ onLogin }: LandingPageProps) {
             {/* Quick Actions */}
             <div className="flex flex-wrap gap-3 justify-center">
               <button className="flex items-center gap-2 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-slate-300 rounded-lg transition-colors">
-                <span>📎</span>
+
                 <span>Định kèm</span>
               </button>
               <button className="flex items-center gap-2 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-slate-300 rounded-lg transition-colors">
-                <span>🔍</span>
+
                 <span>Tìm kiếm</span>
               </button>
               <button className="flex items-center gap-2 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-slate-300 rounded-lg transition-colors">
-                <span>📚</span>
+ 
                 <span>Học tập</span>
               </button>
               <button className="flex items-center gap-2 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-slate-300 rounded-lg transition-colors">
-                <span>🎤</span>
+
                 <span>Thoại</span>
               </button>
             </div>

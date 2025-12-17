@@ -151,7 +151,6 @@ export default function Sidebar({
   }
 
   const handleDeleteConversation = (id: number) => {
-    if (!confirm("🗑️ Xóa đoạn chat này?")) return
       ; (async () => {
         try {
           const res = await authFetch(`/api/chat/conversations/${id}`, { method: "DELETE" })

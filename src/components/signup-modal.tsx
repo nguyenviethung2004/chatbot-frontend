@@ -43,8 +43,7 @@ export default function SignupModal({ onClose, onSuccess, onSwitchToLogin }: Sig
       throw new Error(data.error || "Đăng ký thất bại");
     }
 
-    // ✅ Hiển thị thông báo đăng ký thành công
-    alert(data.message || "🎉 Đăng ký thành công! Vui lòng đăng nhập để tiếp tục.");
+   
 
     // ✅ Đóng form đăng ký
     onClose();
@@ -152,7 +151,7 @@ return (
         </form>
 
         {/* Google Signup */}
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <button
             onClick={handleGoogleSignup}
             disabled={loading}
@@ -178,7 +177,7 @@ return (
             </svg>
             <span>Tiếp tục với Google</span>
           </button>
-        </div>
+        </div> */}
 
         {/* Footer */}
         <p className="text-center text-slate-400 text-base mt-6">

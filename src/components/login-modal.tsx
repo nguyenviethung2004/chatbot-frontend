@@ -123,7 +123,7 @@ export default function LoginModal({ onClose, onSuccess, onSwitchToSignup }: Log
         </form>
 
         {/* Google Login */}
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <button
             onClick={handleGoogleLogin}
             disabled={loading}
@@ -149,7 +149,7 @@ export default function LoginModal({ onClose, onSuccess, onSwitchToSignup }: Log
             </svg>
             <span>Tiếp tục với Google</span>
           </button>
-        </div>
+        </div> */}
 
         {/* Footer */}
         <p className="text-center text-slate-400 text-base mt-6">
